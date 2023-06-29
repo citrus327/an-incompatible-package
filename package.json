@@ -24,5 +24,10 @@
     "git-cliff": "^1.2.0",
     "rollup": "^3.25.3",
     "semantic-release": "^21.0.6"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
