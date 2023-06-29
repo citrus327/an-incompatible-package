@@ -1,55 +1,26 @@
 {
-  "name": "a-priceless-react-lib-tester",
-  "version": "0.1.0",
-  "description": "my react lib starter",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "module": "dist/index.esm.js",
+  "name": "an-incompatible-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "browser": "dist/bundle.umd.js",
   "scripts": {
-    "dev": "rimraf dist && run-p -l \"build:lib -w\" \"build:declaration --watch\"",
-    "build": "rimraf dist && run-p build:lib build:declaration",
-    "build:lib": "rollup -c rollup.config.mjs",
-    "build:declaration": "tsc"
+    "build": "rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/citrus327/react-lib-starter.git"
+    "url": "git+https://github.com/citrus327/an-incompatible-package.git"
   },
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/citrus327/react-lib-starter/issues"
+    "url": "https://github.com/citrus327/an-incompatible-package/issues"
   },
-  "homepage": "https://github.com/citrus327/react-lib-starter#readme",
-  "peerDependencies": {
-    "react": ">=18.2.0",
-    "react-dom": ">=18.2.0"
-  },
+  "homepage": "https://github.com/citrus327/an-incompatible-package#readme",
   "devDependencies": {
-    "@rollup/plugin-alias": "^5.0.0",
-    "@rollup/plugin-commonjs": "^25.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.2",
-    "@rollup/plugin-swc": "^0.1.1",
-    "@rollup/plugin-terser": "^0.4.3",
-    "@rollup/plugin-url": "^8.0.1",
-    "@tsconfig/create-react-app": "^1.0.3",
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
-    "@types/styled-components": "^5.1.26",
-    "@zerollup/ts-transform-paths": "^1.7.18",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.23",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "rimraf": "^5.0.1",
-    "rollup": "^3.23.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
-    "typescript": "5.0.4"
-  },
-  "dependencies": {
-    "core-js": "3.30.2",
-    "tslib": "^2.5.2"
+    "git-cliff": "^1.2.0",
+    "rollup": "^3.25.3"
   }
 }
