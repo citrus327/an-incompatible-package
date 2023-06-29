@@ -46,7 +46,7 @@
     "rollup": "^3.23.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "typescript": "5.0.4"
+    "typescript": "5.1.6"
   },
   "dependencies": {
     "core-js": "3.30.2",
