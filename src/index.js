@@ -1,6 +1,7 @@
-export const arrSpread = (suppress) => {
-  const arr1 = [1, 2, 3];
-  const arr2 = [1, ...[2, 3]];
+export var arrSpread = (suppress) => {
+  var arr1 = [1, 2, 3];
+  var tmp = [2, 3];
+  var arr2 = [1, ...tmp];
   if (JSON.stringify(arr1) === JSON.stringify(arr2)) {
     return true;
   } else {
@@ -9,9 +10,10 @@ export const arrSpread = (suppress) => {
   }
 };
 
-export const objSpread = (suppress) => {
-  const obj1 = { a: 1, b: 2, c: 3 };
-  const obj2 = { a: 1, ...{ b: 2, c: 3 } };
+export var objSpread = (suppress) => {
+  var obj1 = { a: 1, b: 2, c: 3 };
+  var tmp = { b: 2, c: 3 };
+  var obj2 = { a: 1, ...tmp };
   if (JSON.stringify(obj1) === JSON.stringify(obj2)) {
     return true;
   } else {

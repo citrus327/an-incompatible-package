@@ -1,16 +1,17 @@
 {
   "name": "an-incompatible-package",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "browser": "dist/bundle.umd.js",
   "scripts": {
-    "build": "rollup --config rollup.config.js"
+    "build": "rollup --config rollup.config.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/citrus327/an-incompatible-package.git"
+    "url": "https://github.com/citrus327/an-incompatible-package.git"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/citrus327/an-incompatible-package#readme",
   "devDependencies": {
     "git-cliff": "^1.2.0",
-    "rollup": "^3.25.3"
+    "rollup": "^3.25.3",
+    "semantic-release": "^21.0.6"
   }
 }
