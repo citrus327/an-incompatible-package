@@ -45,3 +45,11 @@ or you can use individual functions
 * Object Spread Operator
 
 
+## Changelog
+see [CHANEGLOG.md](https://github.com/citrus327/an-incompatible-package/blob/main/CHANGELOG.md)
+
+To generate a CHANGELOG.md
+```bash
+git cliff --unreleased --tag VERSION_NO --prepend CHANGELOG.md
+```
+

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2023-06-29
+
+### Features
+
+- Add obj spread and array spread
+- Support runAll and use __COMPAT_TEST__ as UMD libraryName
+
+### Miscellaneous Tasks
+
+- Changelog
+- Update version to 1.1.0
+
 ## [1.0.0] - 2023-06-29
 
 ### Features
