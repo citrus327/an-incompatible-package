@@ -1,6 +1,6 @@
 {
   "name": "an-incompatible-package",
-  "version": "1.4.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
