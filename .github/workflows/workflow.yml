@@ -3,7 +3,7 @@ name: Release npm package
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
@@ -16,6 +16,7 @@ jobs:
           node-version: "12.x"
       - run: npm ci
       - run: npm run build --if-present
+      - run: npm test --if-present
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
