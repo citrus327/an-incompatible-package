@@ -10,9 +10,9 @@ export const arrSpread = (suppress) => {
 };
 
 export const objSpread = (suppress) => {
-  const arr1 = { a: 1, b: 2, c: 3 };
-  const arr2 = { a: 1, ...{ b: 2, c: 3 } };
-  if (JSON.stringify(arr1) === JSON.stringify(arr2)) {
+  const obj1 = { a: 1, b: 2, c: 3 };
+  const obj2 = { a: 1, ...{ b: 2, c: 3 } };
+  if (JSON.stringify(obj1) === JSON.stringify(obj2)) {
     return true;
   } else {
     suppress && console.error("Dose not support Object Spread Operator");
