@@ -15,7 +15,7 @@ npm install an-incompatible-package --save
 * or use UMD version
 
 ```html
-<script src="https://unpkg.com/an-incompatible-package@1.0.0/dist/bundle.umd.js"></script>
+<script src="https://unpkg.com/an-incompatible-package@latest/dist/bundle.umd.js"></script>
 ```
 
 ## Usage

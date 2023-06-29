@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2023-06-29
+
+### Bug Fixes
+
+- Fix variable name
+
 ## [1.1.0] - 2023-06-29
 
 ### Features
