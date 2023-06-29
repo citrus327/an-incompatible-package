@@ -12,7 +12,7 @@ module.exports = {
     {
       file: "dist/bundle.umd.js",
       format: "umd",
-      name: "compat_test",
+      name: "__COMPAT_TEST__",
     },
   ],
 };
